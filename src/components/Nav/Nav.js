@@ -9,7 +9,7 @@ const Nav = () => {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/read">Users</a>
+          <a href="/user">Users</a>
         </li>
       </ul>
     </nav>
