@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Amplify } from "aws-amplify";
-import awsconfig from "../src/aws-exports.js";
+import { Amplify } from 'aws-amplify';
+import config from './aws-exports';
 import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
 import "./App.css";
@@ -10,7 +10,7 @@ import Nav from "./components/Nav/Nav.js";
 import Home from "./pages/home/Home.js";
 import User from "./pages/user/User.js";
 
-Amplify.configure(awsconfig);
+Amplify.configure(config);
 
 const App = () => {
   return (
