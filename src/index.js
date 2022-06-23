@@ -6,6 +6,7 @@ import config from "./aws-exports";
 Amplify.configure(config);
 const locales = ["en", "fr", "pt-BR"];
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
