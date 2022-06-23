@@ -1,8 +1,0 @@
-h1 {
-  text-align: center;
-  background: -webkit-linear-gradient(rgb(255, 0, 200), rgb(0, 225, 255));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 50px;
-}
