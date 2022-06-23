@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Amplify } from "aws-amplify";
-import awsconfig from "../src/aws-exports";
+import awsconfig from "../src/aws-exports.js";
 import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
 import "./App.css";
